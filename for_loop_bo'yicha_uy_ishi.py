@@ -32,7 +32,7 @@ else:
     print(f" Xush kelibsiz, {login} ! " )
     
 
-
+print("Hello world !")
 
 
 
