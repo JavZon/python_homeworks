@@ -44,7 +44,50 @@
 #     ismlar.append(a.upper())
 # print(ismlar)    
     
+# ismlar=['ali', 'vali','calvin']
+# a=list(map(lambda x:x.upper(), ismlar))
+# print(a)
 
+import random as r
+
+# a=r.sample(range(50),6)
+# print(a)
+
+
+# sonlar=list(r.sample(range(101), 10))
+# def juftmi(x):
+#     return x%2==0
+
+# juft_sonlar=list(filter(juftmi, sonlar))
+# print(sonlar)
+# print(juft_sonlar)
+
+
+# sonlar=list(r.sample(range(101), 10))
+
+# def juftmi(*x):
+#     for a in x:
+#         if a%2==0:
+#             kvadrat=a**2
+#     return kvadrat  
+
+# juft_sonlar=list(filter(juftmi, sonlar))
+# print(sonlar)
+# print(juft_sonlar)     
+
+
+# ismlar=('hasan','husan', 'nodir', 'ahad', 'tojush shariah', 'sadir','komil')
+# yangi_ism=list(filter(lambda a:a.startswith('h'),ismlar))
+# print(yangi_ism)
+
+
+# ismlar=('hasan','husan', 'nodir', 'ahad', 'tojush shariah', 'sadir','komil')
+# ismlar2=list(filter(lambda x:len(x)<=5,ismlar))
+# print(ismlar2)
+
+ismlar=('hasan','husan', 'nodir', 'ahad', 'tojush shariah', 'sadir','komil')
+ismlar2=list(filter(lambda x:(x.startswith('n') and x.endswith('r')), ismlar))
+print(ismlar2)
 
 
 
