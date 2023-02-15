@@ -60,7 +60,7 @@
 # print(c)
 
 
-# Istalgancha sonlarni qabul qilib, ularning ko'paytmasini qaytaruvchi funksiya yozing
+#Istalgancha sonlarni qabul qilib, ularning ko'paytmasini qaytaruvchi funksiya yozing
 
 # def kopaytir(*sonlar):
 #     kopaytma=1
@@ -75,24 +75,24 @@
 # funkisya yozing. Talabaning ismi va familiyasi majburiy argument,
 # qolgan ma'lumotlar esa ixtiyoriy ko'rinishda istalgancha berilishi mumkin bo'lsin.
 
-def talaba_tuz(ism,familiya,**talaba_info):
-    """Talaba ismi, familyasi va boshqa
-    ma'lumotlarni uzatuvchi funksiya"""
-    talaba_info['talaba_ismi']=ism
-    talaba_info['talaba_familiyasi']=familiya
+# def talaba_tuz(ism,familiya,**talaba_info):
+#     """Talaba ismi, familyasi va boshqa
+#     ma'lumotlarni uzatuvchi funksiya"""
+#     talaba_info['talaba_ismi']=ism
+#     talaba_info['talaba_familiyasi']=familiya
     
-    return talaba_info
+#     return talaba_info
 
-r=talaba_tuz('jovli', "qo'yliyev", yoshi=25, viloyati='samarqand', oqish_joyi='tatu', kursi='2-kurs')
-print(r)
+# r=talaba_tuz('jovli', "qo'yliyev", yoshi=25, viloyati='samarqand', oqish_joyi='tatu', kursi='2-kurs')
+# print(r)
 
-def talaba_info(ism, familiya, **kwargs):
-    kwargs['ism']=ism
-    kwargs['familiya']=familiya
-    return kwargs
+# def talaba_info(ism, familiya, **kwargs):
+#     kwargs['ism']=ism
+#     kwargs['familiya']=familiya
+#     return kwargs
 
-talaba = talaba_info('olim','olimov',tyil=1995,fakultet='IT',yonalish='AT')
-print(talaba)
+# talaba = talaba_info('olim','olimov',tyil=1995,fakultet='IT',yonalish='AT')
+# print(talaba)
 
 
 

@@ -32,7 +32,8 @@ class Avto:
 
 # car1=Avto("Genesis G90", "Blue", "Avtomat", 100000)        
 # car1.update_km(22500)
-# print(car1.car_distance())        
+# print(car1.car_distance())
+# print(car1.get_info())        
         
 
 
@@ -75,7 +76,7 @@ avtosalon1.add_cars("Traverse")
 avtosalon1.add_cars("Gentra")
 
 # print(avtosalon1.see_cars())
-# print(avtosalon1.name)  
+# print(avtosalon1.get_salon_info())  
 # print(avtosalon1.get_sale_cars())
 # print(avtosalon1.get_payment())
 
@@ -84,10 +85,10 @@ def see_methods(klass):
     return [a for a in dir(klass) if a.startswith('__') is False]
 
 
-print(see_methods(Avtosalon))
+# print(see_methods(Avtosalon))
 # print(avtosalon1.__dict__)
-print(avtosalon1.__dict__.keys())
-print(avtosalon1.__dict__.values())
+# print(avtosalon1.__dict__.keys())
+# print(avtosalon1.__dict__.values())
 
 
 

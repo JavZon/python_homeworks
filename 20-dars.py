@@ -56,12 +56,12 @@
 #mashina2=avto_salon('Audi','Q7','black',2021,18000)
 #cars=[mashina1,mashina2]
     
-#for b in cars:
- #   if b['mash_narhi']:
-  #      qiymat=b['mash_narhi']
-   # else:
-    #    qiymat="Hozircha noma'lum"
-    #print(f"{b['mash_modeli']}, rangi- {b['mash_rangi']}. Narxi - {qiymat}")        
+for b in cars:
+    if b['mash_narhi']:
+        qiymat=b['mash_narhi']
+    else:
+        qiymat="Hozircha noma'lum"
+    print(f"{b['mash_modeli']}, rangi- {b['mash_rangi']}. Narxi - {qiymat}")        
     
 
  

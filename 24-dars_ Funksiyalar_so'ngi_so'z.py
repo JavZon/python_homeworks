@@ -89,7 +89,7 @@ ismlar=('hasan','husan', 'nodir', 'ahad', 'tojush shariah', 'sadir','komil')
 ismlar2=list(filter(lambda x:(x.startswith('n') and x.endswith('r')), ismlar))
 print(ismlar2)
 
-
+get_word
 
 
 

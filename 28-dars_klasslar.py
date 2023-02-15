@@ -59,7 +59,7 @@ student1=Student("Tojuddin", "Sodrush Shariah", 1721)
 
 print(student1.introduce())
 print(student1.get_name())
-print(student1.get_age())
+
 
 
 

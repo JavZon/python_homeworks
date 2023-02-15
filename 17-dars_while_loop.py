@@ -33,7 +33,7 @@
 #while k!='exit':
     #k=input(savol)
     #if k!='exit':
-      #  print(float(k)**3)
+       # print(float(k)**3)
 #print("Dastur tugadi.") 
        
 
@@ -43,14 +43,14 @@
 #while i:
     #qiymat=input(savol)
     #if qiymat!='exit':
-       # print(float(qiymat)**3)
-    #else:
+       #print(float(qiymat)**3)
+   # else:
         #i=False
-        #print("Dastur tugadi.")
+       # print("Dastur tugadi.")
                 
             
 #while True:
-    #number=float(input("Enter a negative number : "))
+   # number=float(input("Enter a negative number : "))
     #if number<0:
         #break 
     #print("You entered a positive number. Please enter a negative number ")
@@ -59,10 +59,10 @@
 #while True:
    #number=float(input("Enter a negative number : "))
    
-    #if number<0:
+   #if number<0:
         #print("Thank YOU !!! ")
         #break
-    #print("You entered a positive number. Please enter a negative number") 
+  # print("You entered a positive number. Please enter a negative number") 
 
 
 #print("Kiritilgan sonning kvadratini qaytaruvchi dastur.")
@@ -72,23 +72,31 @@
 #while True: # abadiy tsikl davom etaveradi, hech achon to'xtamaydi. Qachonki to'xtash sharti topilmaguncha.
     #qiymat = input(savol)
     #if qiymat != 'exit':
-        
         #print(float(qiymat)**2)
     #else:
+       # break
+
+
+#f=['apple', 'grape', 'banana', 'apricot']
+#for a in f:
+    #if a=='banana':
         #break
+   # else:
+        #print(a.upper())
+       
+
+#for a in range(8):
+   # if a==5:
+      # break
+    #print(a)
 
 
-f=['apple', 'grape', 'banana', 'apricot']
-for a in f:
-    if a=='banana':
-        break
-    print(a.upper())        
-
-
-
-
-
-
+#for b in range(10):
+    #if b==6:
+       # continue
+    #else:
+        #print(b)
+        
 
 
 

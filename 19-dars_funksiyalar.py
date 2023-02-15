@@ -1,4 +1,4 @@
-# 19-dars. funksiyalar
+# 19-dars. funksiyalar uy ishi
 
 #def salom_ber():
  #   """Salom beruvchi funksiya"""

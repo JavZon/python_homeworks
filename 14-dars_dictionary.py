@@ -22,10 +22,26 @@
 #del mevalar['qovun']
 #print(mevalar)
 
-phones={
-        'ali':'iphone X',
-        'vali':'Samsung 10s',
-        'olim': 'redmi 10'
-        }
+#phones={
+       # 'ali':'iphone X',
+       # 'vali':'Samsung 10s',
+       # 'olim': 'redmi 10'
+       # }
 
-print(phones)
+#print(phones)
+
+
+cars={'model':'BMW', 'year':2022}
+#a=cars.get('color')
+#print(a)
+b=cars.get('color', 'The key you entered is not found in this dictionary')
+print(b)
+
+
+
+
+
+
+
+
+

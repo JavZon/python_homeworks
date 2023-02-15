@@ -8,7 +8,8 @@
 #        talaba_bahosi=input(f"Talaba {talaba_ismi.title()} ning bahosini kiriting : ")
 #        baholar[talaba_ismi]=int(talaba_bahosi)
 #    return baholar
-    
+   
+ 
 #students=['Tojush shariah', 'sodru shariah', 'viktor kumkiov', 'sardor cholqonoglu']
 #a=baho_qoy(students)
 
@@ -74,18 +75,18 @@
 
 #o'zim yozgan usul
 talabalar = ['ali', 'vali', 'hasan', 'husan']
-def bahola(x):
-    baholar={}
-    x=talabalar[:]
-    for a in range(len(x)):
-        ism=x[a]
-        baho=input(f"{x[a].title()}ning bahosi kiriting : ")
-        baholar[ism]=int(baho)
-    return baholar
+# def bahola(x):
+#     baholar={}
+#     x=talabalar[:]
+#     for a in range(len(x)):
+#         ism=x[a]
+#         baho=input(f"{x[a].title()}ning bahosi kiriting : ")
+#         baholar[ism]=int(baho)
+#     return baholar
 
-a=bahola(talabalar)
-print(a)  
-print(f"\n{talabalar}")          
+# a=bahola(talabalar)
+# print(a)  
+# print(f"\n{talabalar}")          
         
 
 #sariq dev yozgan usul        
