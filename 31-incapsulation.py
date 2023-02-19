@@ -35,7 +35,7 @@ from uuid import uuid4
 # print(avto1.get_km())
 
 class Avto:
-    num_avto=0
+    __num_avto=0
     def __init__(self, zavod, model, rang, narh, yil, km=0):
         self.producer= zavod
         self.model=model
@@ -43,16 +43,19 @@ class Avto:
         self.price=narh
         self.year=yil
         self.__km=km
-        Avto.num_avto+=1
+        Avto.__num_avto+=1
+        
+    @classmethod
+    def get_num_avto(cls):
+        return cls.__num_avto
+         	
         
 avto1=Avto("GM","Cobalt","Oq",25000,2021,500)
 avto2=Avto("KIA","Carnival","Black",75000,2023,300)
 avto3=Avto("Mitsubishi","Watashiwas","Silver",22000,2022,6200)
 
-print(avto1.num_avto)
-print(avto2.num_avto)
-print(avto3.num_avto)
-print(Avto.num_avto)        
+print(avto1.get_num_avto())
+print(Avto.get_num_avto())        
 
 
 
