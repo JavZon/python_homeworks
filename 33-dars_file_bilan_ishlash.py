@@ -46,6 +46,33 @@ with open(filename,'w') as file:
 with open(filename,'a') as file:
     file.write("Qayumbergen G'azibgasayev\n")
     file.write('2001')
+
+import pickle
+
+talaba1={'ism':"Qo'ylivoy", 'familiya':"Jovliyev", 'tyil':2001,'kurs':2}
+talaba2={'ism':"Boychibor", 'familiya':"Sarageldiyev",'tyil':2003,'kurs':1}
+talaba3={'ism':"Qayumbergen",'familiya':"G'azibgasayev",'tyil':1997,'kurs':4}
+
+with open('info_talaba','wb') as file:
+    pickle.dump(talaba1,file)
+    pickle.dump(talaba2,file)
+    pickle.dump(talaba3,file)
+
+with open('info_talaba','rb') as file:
+    talaba1=pickle.load(file)
+    talaba2=pickle.load(file)
+    talaba3=pickle.load(file)
+
+print(talaba1)
+print(talaba2)
+print(talaba3)
+
+
+
+
+
+
+
     
 
 
