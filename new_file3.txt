@@ -1,0 +1,12 @@
+black
+red
+yellow
+silver
+0
+0
+0
+qora
+0
+0
+0
+qizil
