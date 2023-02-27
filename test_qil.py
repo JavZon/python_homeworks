@@ -8,17 +8,19 @@ from uy_ishi_test import katta_harf_qil,kattasini_top,juft_son_top
 #         self.assertEqual(natija, 85)
         
 
-class JuftSon_test(unittest.TestCase):
-    def test_juft_son(self):
-        juft=juft_son_top(84)
-        self.assertEqual(juft, 84)
+# class JuftSon_test(unittest.TestCase):
+#     def test_juft_son(self):
+#         juft=juft_son_top(84)
+#         self.assertEqual(juft, 84)
 
       
     
-juft=juft_son_top(52,35,14,25,19)
-print(juft)
+class KattaHarf_qil(unittest.TestCase):
+    def test_kattas_harf_qil(self):
+        natija=katta_harf_qil('banana')
+        self.assertEqual(natija, 'Banana')
 
-
+unittest.main()
 
 
 
